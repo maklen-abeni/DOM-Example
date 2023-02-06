@@ -20,14 +20,14 @@ function addItem(e){
     itemList.appendChild(li);
 }
 
-// function removeItem (e){
-// if(e.target.classList.contains('delete')){
-//     if(confirm('Are you Sure?')){
-//         var li = e.target.parentElement;
-//         itemList.removeChild(li);
-//     }
-// }
-// }
+function removeItem (e){
+if(e.target.classList.contains('delete')){
+    if(confirm('Are you Sure?')){
+        var li = e.target.parentElement;
+        itemList.removeChild(li);
+    }
+}
+}
 //  function filterItems (e){
 //     var text = e.target.value.toLowerCase();
 //     var items = itemList.getElementsByTagName('li');
